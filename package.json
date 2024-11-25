@@ -1,0 +1,40 @@
+{
+  "name": "next-auth-intl-starter",
+  "description": "This is a simple example of using next-intl for internationalization in Next.js",
+  "version": "0.1.0",
+  "bin": {
+    "next-auth-intl-starter": "bin/cli.js"
+  },
+  "homepage": "https://next-app-with-nextauth-and-internationalization.vercel.app",
+  "repository": {
+    "url": "git+https://github.com/JoySarkarBD/next-app-with-nextauth-and-internationalization.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.4",
+    "next-auth": "^4.24.7",
+    "next-intl": "^3.15.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "keywords": [
+    "Next.js, Typescript, Next-Auth, Next-Intl, Internationalization, Role-based Routing"
+  ],
+  "license": "MIT",
+  "author": "Joy Sarkar"
+}
